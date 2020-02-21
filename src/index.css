@@ -1,6 +1,21 @@
+@font-face {
+  font-family: 'Century Gothic';
+  src: local('Century Gothic', url('./fonts/Century Gothic.ttf') format('truetype'));
+}
+
+@font-face {
+  font-family: 'Gothic Bold';
+  src: local('Gothic Bold', url('./fonts/Gothic Bold.TTF') format('truetype'));
+}
+
+html, body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Century Gothic', 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;

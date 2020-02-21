@@ -1,0 +1,123 @@
+main {
+    padding: 0px 0px;
+}
+
+.movie-poster {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.movie-title {
+    margin-bottom: 5px;
+}
+
+.movie-details {
+    display: table;
+}
+
+.movie-parental-rating {
+    display: table-cell;
+    vertical-align: middle;
+    padding-right: 10px;
+}
+
+.pg {
+    border: 1px solid #8a8a8a;
+    padding: 3px 9px;
+    border-radius: 3px;
+    margin: 19px 0px;
+    color: grey;
+}
+
+.breweries {
+  }
+  
+  .breweries > ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(294px, 1fr));
+    grid-gap: 1rem;
+    list-style: none;
+    padding: 0;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: justify;
+  }
+  
+  .breweries > ul > li {
+  }
+  
+  .breweries > ul > li > p {
+    font-size: 1rem;
+    line-height: 1.5;
+    padding: 0;
+    color: #666666;
+    word-break: break-word;
+  }
+  
+  .breweries > ul > li > a {
+    padding: .5rem 1rem;
+    margin: .5rem;
+  }
+
+  .dropdown {
+    display: inline-block;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    background: #f7f7f7;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: red;
+    color: white;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .watch-btn {
+    border: none;
+    background: linear-gradient(to left, #fd8424, #fc0f1b);
+    color: white;
+    font-size: 16px;
+    padding: 20px 40px;
+    border-radius: 50px;
+  }
