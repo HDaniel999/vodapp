@@ -8,7 +8,7 @@ export function Nav (props) {
         <Navigation>
             <ul className="ul-nav">
                 <li className="li-nav"><Link to="/">Home</Link></li>
-                <li className="li-nav"><Link>History</Link></li>
+                <li className="li-nav"><Link to="/history">History</Link></li>
                 <li className="li-nav"><Link><div className="user-avatar"></div></Link></li>
             </ul>
         </Navigation>

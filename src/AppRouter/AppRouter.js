@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import { HomePage } from '../pages/HomePage/HomePage'
 import { DetailPage } from '../pages/DetailPage/DetailPage'
 import { VideoPlayer } from '../pages/VideoPlayer/VideoPlayer'
+import { History } from '../pages/History/History'
 import { NotFound } from '../pages/404/NotFound'
 
 export function AppRouter () {
@@ -12,6 +13,7 @@ export function AppRouter () {
                 <Route path='/' exact component={HomePage} />
                 <Route path='/movie/:movieCount' component={DetailPage}/>
                 <Route path='/player/:movieId' component={VideoPlayer}/>
+                <Route path='/history' component={History}/>
                 <Route path='*' component={NotFound} />
             </Switch>
         </Router>

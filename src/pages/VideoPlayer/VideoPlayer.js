@@ -46,7 +46,7 @@ export class VideoPlayer extends Component {
             <div class="video-paused">
                 <h1>{title}</h1>
             </div>
-            <video className="video-player" preload="auto" autoPlay controls >
+            <video className="video-player" preload="auto" autoPlay controls>
                 <source src={video} tipe="video/mp4"/>
                 video not supported
             </video>
