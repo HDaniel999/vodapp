@@ -1,0 +1,22 @@
+section {
+    padding: 0px 40px;
+}
+
+.movie-item {
+    display: inline-block;
+    width: 300px;
+    height: 445px;
+    box-sizing: border-box;
+    margin-right: 30px;
+    box-shadow: 5px 5px 14px #00000073;
+    margin-top: 30px;
+}
+
+.movie-item:hover {
+    transition: .5s ease;
+    box-shadow: 15px 15px 17px #000000ad;
+}
+
+.movie-item:hover .overlay {
+    opacity: 1;
+}

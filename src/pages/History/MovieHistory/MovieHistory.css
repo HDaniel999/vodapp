@@ -1,0 +1,29 @@
+.movie-thumbnail {
+    width: 300px;
+    height: 445px;
+}
+
+.overlay {
+    opacity: 0;
+    transition: .5s ease;
+    position: inherit;
+    transform: translate(0%, -100%);
+    background: #0000009e;
+    width: 300px;
+    height: 445px;
+}
+
+.movie-info {
+    color: white;
+    text-decoration: none;
+    top: 77%;
+    position: absolute;
+    padding: 15px;
+}
+
+.movie-info p, .movie-info h2 {
+    margin: 0;
+    padding: 0;
+    white-space: normal;
+    word-break: break-all;
+}
