@@ -1,26 +1,42 @@
 .carousel {
-    overflow: scroll;
-    overflow-y: hidden;
-	white-space: nowrap;
-	padding-bottom: 25px;
+	overflow-y: hidden;
+	display: grid;
+	grid-template-columns: repeat(5,1fr);
 }
 
-.carousel::-webkit-scrollbar-track
-{
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
-	background-color: #F5F5F5;
-	border-radius: 10px;
+@media (max-width: 1700px){
+
+	.carousel{
+		grid-template-columns: repeat(4,1fr);
+	}
 }
 
-.carousel::-webkit-scrollbar
-{
-	width: 10px;
-	background-color: #F5F5F5;
+@media (max-width: 1380px){
+
+	.carousel{
+		grid-template-columns: repeat(3,1fr);
+	}
+}
+@media (max-width: 1050px){
+
+	.carousel{
+		grid-template-columns: repeat(2,1fr);
+	}
 }
 
-.carousel::-webkit-scrollbar-thumb
-{
-	border-radius: 10px;
-	background-color: #FFF;
-	background-image: -webkit-linear-gradient(left, #fc1c1c, #fd6522)
+@media (max-width: 700px){
+
+	.carousel{
+		grid-template-columns: repeat(1,1fr);
+		justify-items: center;
+		align-items: center;
+	}
+}
+
+
+@media (max-width: 450px){
+
+	.carousel{
+		grid-template-columns: repeat(1,1fr);
+	}
 }
